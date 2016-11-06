@@ -1,0 +1,409 @@
+{
+  "comments": [
+    {
+      "canvasID": "s-d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "elementID": "s-answerCall",
+      "canvasURL": "screens/d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "scenario" : "",
+      "author": "Arapaoa Moffat",
+      "authorID" : 21636574,
+      "code": 2,
+      "parentCode": null,
+      "content": "System is setup to handle the answering, logging and dispatching of one call at a time due to limitations with justinmind.",
+      "timestamp": "1476607036700",
+      "date": "16-Oct-2016 21:37",
+      "fileName": "",
+      "isRead": true
+    }
+    ,{
+      "canvasID": "s-d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "elementID": "s-answerTransfer",
+      "canvasURL": "screens/d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "scenario" : "",
+      "author": "Arapaoa Moffat",
+      "authorID" : 21636574,
+      "code": 3,
+      "parentCode": null,
+      "content": "Simulates the transfering of calls to other operators. This refreses page but sometimes does not clear varables. Please re load page.",
+      "timestamp": "1476607077063",
+      "date": "16-Oct-2016 21:37",
+      "fileName": "",
+      "isRead": true
+    }
+    ,{
+      "canvasID": "s-d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "elementID": "s-answerButton",
+      "canvasURL": "screens/d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "scenario" : "",
+      "author": "Arapaoa Moffat",
+      "authorID" : 21636574,
+      "code": 4,
+      "parentCode": null,
+      "content": "Answers call and proceeds to next screen, all confimation buttons are the same color green for consistancy.",
+      "timestamp": "1476607101124",
+      "date": "16-Oct-2016 21:38",
+      "fileName": "",
+      "isRead": true
+    }
+    ,{
+      "canvasID": "s-d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "elementID": "s-callerQuestionsLog",
+      "canvasURL": "screens/d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "scenario" : "",
+      "author": "Arapaoa Moffat",
+      "authorID" : 21636574,
+      "code": 5,
+      "parentCode": null,
+      "content": "Caller question and response fields, are displayed to filter out fake calls and pass data to the next screen. All check boxes must be filled and responses answered to proceed. By filling out a response also ticks the box of that question.",
+      "timestamp": "1476607200706",
+      "date": "16-Oct-2016 21:40",
+      "fileName": "",
+      "isRead": true
+    }
+    ,{
+      "canvasID": "s-d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "elementID": "s-callerQuestionSubmit",
+      "canvasURL": "screens/d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "scenario" : "",
+      "author": "Arapaoa Moffat",
+      "authorID" : 21636574,
+      "code": 6,
+      "parentCode": null,
+      "content": "Will only be able to proceed to next page if all fields and responses have been answered.",
+      "timestamp": "1476607242783",
+      "date": "16-Oct-2016 21:40",
+      "fileName": "",
+      "isRead": true
+    }
+    ,{
+      "canvasID": "s-d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "elementID": "s-systemSteps_3EnterDetailsAndLogCall",
+      "canvasURL": "screens/d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "scenario" : "",
+      "author": "Arapaoa Moffat",
+      "authorID" : 21636574,
+      "code": 7,
+      "parentCode": null,
+      "content": "When user on ask questions phase, unable to jump to enter details and log call.",
+      "timestamp": "1476607274990",
+      "date": "16-Oct-2016 21:41",
+      "fileName": "",
+      "isRead": true
+    }
+    ,{
+      "canvasID": "s-d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "elementID": "s-callPannel",
+      "canvasURL": "screens/d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "scenario" : "",
+      "author": "Arapaoa Moffat",
+      "authorID" : 21636574,
+      "code": 8,
+      "parentCode": null,
+      "content": "In this window user enters the missing details about the event. After reading up on the call priority guide assigns a priority level for the event.",
+      "timestamp": "1476607355075",
+      "date": "16-Oct-2016 21:42",
+      "fileName": "",
+      "isRead": true
+    }
+    ,{
+      "canvasID": "s-d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "elementID": "s-priorityGuideTable",
+      "canvasURL": "screens/d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "scenario" : "",
+      "author": "Arapaoa Moffat",
+      "authorID" : 21636574,
+      "code": 9,
+      "parentCode": null,
+      "content": "To help users of system know what to level to assign events, these lists have been created to help direct the operators and assign the correct response unit level.",
+      "timestamp": "1476607459824",
+      "date": "16-Oct-2016 21:44",
+      "fileName": "",
+      "isRead": true
+    }
+    ,{
+      "canvasID": "s-d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "elementID": "s-callLogTable",
+      "canvasURL": "screens/d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "scenario" : "",
+      "author": "Arapaoa Moffat",
+      "authorID" : 21636574,
+      "code": 10,
+      "parentCode": null,
+      "content": "After call has been logged it is shown in logged calls section. This list also shows latest events these ones are placeholders but help for prototyping.",
+      "timestamp": "1476607526165",
+      "date": "16-Oct-2016 21:45",
+      "fileName": "",
+      "isRead": true
+    }
+    ,{
+      "canvasID": "s-d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "elementID": "s-Table_1",
+      "canvasURL": "screens/d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "scenario" : "",
+      "author": "Arapaoa Moffat",
+      "authorID" : 21636574,
+      "code": 11,
+      "parentCode": null,
+      "content": "Once user has logged call, a new event menu is displayed with the details from the event they just logged. Next step is to assign a unit to this newly created event.",
+      "timestamp": "1476607578889",
+      "date": "16-Oct-2016 21:46",
+      "fileName": "",
+      "isRead": true
+    }
+    ,{
+      "canvasID": "s-d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "elementID": "s-SpecialDispatchButton-1",
+      "canvasURL": "screens/d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "scenario" : "",
+      "author": "Arapaoa Moffat",
+      "authorID" : 21636574,
+      "code": 12,
+      "parentCode": null,
+      "content": "Dispatch units to created event, will only work if the unit matches the logged events severity level. Was going to allow the dispatching of higher level units to lower cases. But code was a bit of a issue so this has been omitted.",
+      "timestamp": "1476607634613",
+      "date": "16-Oct-2016 21:47",
+      "fileName": "",
+      "isRead": true
+    }
+    ,{
+      "canvasID": "s-d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "elementID": "s-UnitDisplay0",
+      "canvasURL": "screens/d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "scenario" : "",
+      "author": "Arapaoa Moffat",
+      "authorID" : 21636574,
+      "code": 13,
+      "parentCode": null,
+      "content": "Displays unit that has been dispatched to events details and current status.",
+      "timestamp": "1476607674075",
+      "date": "16-Oct-2016 21:47",
+      "fileName": "",
+      "isRead": true
+    }
+    ,{
+      "canvasID": "s-d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "elementID": "s-unitDisplay0Reasign",
+      "canvasURL": "screens/d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "scenario" : "",
+      "author": "Arapaoa Moffat",
+      "authorID" : 21636574,
+      "code": 14,
+      "parentCode": null,
+      "content": "Can re assign unit to another event, but due to this prototype only working with one this feature does nothing.",
+      "timestamp": "1476607700607",
+      "date": "16-Oct-2016 21:48",
+      "fileName": "",
+      "isRead": true
+    }
+    ,{
+      "canvasID": "s-d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "elementID": "s-unitDisplay0JobComplete",
+      "canvasURL": "screens/d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "scenario" : "",
+      "author": "Arapaoa Moffat",
+      "authorID" : 21636574,
+      "code": 15,
+      "parentCode": null,
+      "content": "Complete job by pressing ok this will end the simulation. But might require a reload of the page as justinmind does not clear the varables and can cause issues.",
+      "timestamp": "1476607740433",
+      "date": "16-Oct-2016 21:49",
+      "fileName": "",
+      "isRead": true
+    }
+    ,{
+      "canvasID": "s-d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "elementID": "s-eventMap0EventStatus",
+      "canvasURL": "screens/d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "scenario" : "",
+      "author": "Arapaoa Moffat",
+      "authorID" : 21636574,
+      "code": 16,
+      "parentCode": null,
+      "content": "Selecting completed will finish job and the simulation. This refreses page but sometimes does not clear varables. Please re load page.",
+      "timestamp": "1476607759239",
+      "date": "16-Oct-2016 21:49",
+      "fileName": "",
+      "isRead": true
+    }
+    ,{
+      "canvasID": "s-d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "elementID": "s-unitComsTable",
+      "canvasURL": "screens/d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "scenario" : "",
+      "author": "Arapaoa Moffat",
+      "authorID" : 21636574,
+      "code": 17,
+      "parentCode": null,
+      "content": "Shows unit commincation and last time contacted. Also can mute the call.",
+      "timestamp": "1476607787693",
+      "date": "16-Oct-2016 21:49",
+      "fileName": "",
+      "isRead": true
+    }
+    ,{
+      "canvasID": "s-d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "elementID": "s-MinorDispathcButton-3",
+      "canvasURL": "screens/d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "scenario" : "",
+      "author": "Arapaoa Moffat",
+      "authorID" : 21636574,
+      "code": 18,
+      "parentCode": null,
+      "content": "Due to prototype have disabled the other buttons for dispatch of unit.",
+      "timestamp": "1476607813586",
+      "date": "16-Oct-2016 21:50",
+      "fileName": "",
+      "isRead": true
+    }
+    ,{
+      "canvasID": "s-d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "elementID": "s-Date",
+      "canvasURL": "screens/d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "scenario" : "",
+      "author": "Arapaoa Moffat",
+      "authorID" : 21636574,
+      "code": 19,
+      "parentCode": null,
+      "content": "Shows current date and time of computer.",
+      "timestamp": "1476607831115",
+      "date": "16-Oct-2016 21:50",
+      "fileName": "",
+      "isRead": true
+    }
+    ,{
+      "canvasID": "s-d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "elementID": "s-systemSteps_1AnswerCall",
+      "canvasURL": "screens/d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "scenario" : "",
+      "author": "Arapaoa Moffat",
+      "authorID" : 21636574,
+      "code": 20,
+      "parentCode": null,
+      "content": "Shows visability of system status directing the user to what is the next step.",
+      "timestamp": "1476607883538",
+      "date": "16-Oct-2016 21:51",
+      "fileName": "",
+      "isRead": true
+    }
+    ,{
+      "canvasID": "s-d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "elementID": "s-Date_1",
+      "canvasURL": "screens/d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "scenario" : "",
+      "author": "Arapaoa Moffat",
+      "authorID" : 21636574,
+      "code": 21,
+      "parentCode": null,
+      "content": "Details the shift time for users so that they know how long they have left.",
+      "timestamp": "1476607910868",
+      "date": "16-Oct-2016 21:51",
+      "fileName": "",
+      "isRead": true
+    }
+    ,{
+      "canvasID": "s-d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "elementID": "s-googleMaps",
+      "canvasURL": "screens/d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "scenario" : "",
+      "author": "Arapaoa Moffat",
+      "authorID" : 21636574,
+      "code": 22,
+      "parentCode": null,
+      "content": "Displays realtime units and visual feedback for operators to see where units are.",
+      "timestamp": "1476607957984",
+      "date": "16-Oct-2016 21:52",
+      "fileName": "",
+      "isRead": true
+    }
+    ,{
+      "canvasID": "s-d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "elementID": "s-currentCallLog",
+      "canvasURL": "screens/d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "scenario" : "",
+      "author": "Arapaoa Moffat",
+      "authorID" : 21636574,
+      "code": 23,
+      "parentCode": null,
+      "content": "If user has not entered all data in to call log show error. This is to catch unfinished logging of calls to the system.",
+      "timestamp": "1476608023080",
+      "date": "16-Oct-2016 21:53",
+      "fileName": "",
+      "isRead": true
+    }
+    ,{
+      "canvasID": "s-d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "elementID": "s-DispatchingUnits",
+      "canvasURL": "screens/d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "scenario" : "",
+      "author": "Arapaoa Moffat",
+      "authorID" : 21636574,
+      "code": 24,
+      "parentCode": null,
+      "content": "If user trys to dispatch unit before any are logged show error. To prevent unwanted interaction with units to events that dont exist.",
+      "timestamp": "1476608069584",
+      "date": "16-Oct-2016 21:54",
+      "fileName": "",
+      "isRead": true
+    }
+    ,{
+      "canvasID": "s-d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "elementID": "s-CallerID0CallStart-0",
+      "canvasURL": "screens/d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "scenario" : "",
+      "author": "Arapaoa Moffat",
+      "authorID" : 21636574,
+      "code": 25,
+      "parentCode": null,
+      "content": "Shows start time of the call from when it was answered.",
+      "timestamp": "1476608098153",
+      "date": "16-Oct-2016 21:54",
+      "fileName": "",
+      "isRead": true
+    }
+    ,{
+      "canvasID": "s-d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "elementID": "s-CallerID0CallEnd-0",
+      "canvasURL": "screens/d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "scenario" : "",
+      "author": "Arapaoa Moffat",
+      "authorID" : 21636574,
+      "code": 26,
+      "parentCode": null,
+      "content": "Shows time call was logged into the system.",
+      "timestamp": "1476608112433",
+      "date": "16-Oct-2016 21:55",
+      "fileName": "",
+      "isRead": true
+    }
+    ,{
+      "canvasID": "s-d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "elementID": "s-callerID0Description-0",
+      "canvasURL": "screens/d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "scenario" : "",
+      "author": "Arapaoa Moffat",
+      "authorID" : 21636574,
+      "code": 27,
+      "parentCode": null,
+      "content": "Description of event can be updated before logging",
+      "timestamp": "1476608134370",
+      "date": "16-Oct-2016 21:55",
+      "fileName": "",
+      "isRead": true
+    }
+    ,{
+      "canvasID": "s-d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "elementID": "s-minorUnitsDispatch-Button",
+      "canvasURL": "screens/d12245cc-1680-458d-89dd-4f0d7fb22724",
+      "scenario" : "",
+      "author": "Arapaoa Moffat",
+      "authorID" : 21636574,
+      "code": 28,
+      "parentCode": null,
+      "content": "Tabs allow for the switching though of units to dispatch.",
+      "timestamp": "1476608185632",
+      "date": "16-Oct-2016 21:56",
+      "fileName": "",
+      "isRead": true
+    }
+  ]
+}

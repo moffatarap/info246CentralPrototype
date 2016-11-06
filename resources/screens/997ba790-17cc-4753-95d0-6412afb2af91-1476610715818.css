@@ -1,0 +1,99 @@
+#s-997ba790-17cc-4753-95d0-6412afb2af91 > #backgroundBox {
+  background-color: transparent;
+  background-image: none;
+  position: absolute;
+}
+#s-997ba790-17cc-4753-95d0-6412afb2af91 > #alignmentBox {
+  position: relative;
+  margin: 0 auto;
+  width: 2560px;
+  min-width: 2560px;
+  min-height: 1440px;
+}
+#s-997ba790-17cc-4753-95d0-6412afb2af91 #s-Rectangle_1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 2562px;
+  height: 1436px;
+  background-color: #FFFFFF;
+  background-image: none;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  transform: rotate(0deg);
+  box-shadow: none;
+  text-shadow: none;
+  line-height: 18px;
+  font-size: 10.0pt;
+  font-family: Roboto-Regular,Arial;
+}
+#s-997ba790-17cc-4753-95d0-6412afb2af91 #s-Rectangle_1 .valign {
+  vertical-align: middle;
+  text-align: center;
+}
+#s-997ba790-17cc-4753-95d0-6412afb2af91 #s-Rectangle_1 span {
+  color: #333333;
+  text-align: center;
+  text-decoration: none;
+  font-family: Roboto-Regular,Arial;
+  font-size: 10.0pt;
+}
+#s-997ba790-17cc-4753-95d0-6412afb2af91 #s-Rectangle_1 span#rtr-s-Rectangle_1_0 {
+  color: #333333;
+  text-align: center;
+  text-decoration: none;
+  font-family: Roboto-Regular,Arial;
+  font-size: 10.0pt;
+  line-height: 0px;
+}
+#s-997ba790-17cc-4753-95d0-6412afb2af91 #s-Text_1 {
+  position: absolute;
+  top: 515px;
+  left: 1117px;
+  width: auto;
+  height: auto;
+  background-color: transparent;
+  background-image: none;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  transform: rotate(0deg);
+  box-shadow: none;
+  text-shadow: none;
+  font-size: 72.0pt;
+  font-family: Roboto-Regular,Arial;
+}
+#s-997ba790-17cc-4753-95d0-6412afb2af91 #s-Text_1 .valign {
+  vertical-align: middle;
+  text-align: left;
+}
+#s-997ba790-17cc-4753-95d0-6412afb2af91 #s-Text_1 span {
+  color: #333333;
+  text-align: left;
+  text-decoration: none;
+  font-family: Roboto-Regular,Arial;
+  font-size: 72.0pt;
+}
+#s-997ba790-17cc-4753-95d0-6412afb2af91 #s-Text_1 span#rtr-s-Text_1_0 {
+  color: #333333;
+  text-align: left;
+  text-decoration: none;
+  font-family: Roboto-Regular,Arial;
+  font-size: 72.0pt;
+  line-height: 0px;
+}
+#s-997ba790-17cc-4753-95d0-6412afb2af91 #s-spinner-2 {
+  position: absolute;
+  top: 657px;
+  left: 1223px;
+  width: 150px;
+  height: 150px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  transform: rotate(0deg);
+  box-shadow: none;
+}
+#s-997ba790-17cc-4753-95d0-6412afb2af91 > #loadMark {
+  width: 1px;
+  visibility: hidden;
+  display: none;
+}
